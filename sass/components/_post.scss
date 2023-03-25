@@ -1,0 +1,24 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+  }
+  .post p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+  }
+  .box {
+    margin: 100px 0px 70px 0px;
+  }
+  .post__icon {
+    padding: 20px;
+    background-color: $button-background-color;
+    border-radius: 4px;
+  }
+  .post__text {
+    max-width: 270px;
+  }
+  

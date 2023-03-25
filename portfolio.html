@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="container">
+      <div class="page-header">
+      <a href="index.html" class="logo">
+        <span>Web</span>
+        <span class="logo__color1">Studio</span>
+      </a>
+      <nav>
+        <ul class="navbar">
+          <li class="navbar__item--transition">
+            <a class="navbar__item" href="index.html">Agencja</a>
+          </li>
+          <li class="navbar--underline">
+            <a class="navbar__item active" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="navbar__item--transition">
+            <a class="navbar__item" href="#">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+        <ul class="page-header__contact">
+        <li class="contact__box-mail">
+          <svg class="icon__mail" width="20" height="20" >
+            <use href="./images/symbol-defs.svg#icon-envelope">
+            </use>
+          </svg>
+          <a href="mailto:info@devstudio.com" class="contact__mail"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact__box-phone">
+          <svg class="icon__phone" width="20" height="20" >
+            <use href="./images/symbol-defs.svg#icon-smartphone-1">
+            </use>
+          </svg>
+          <a href="tel:48111111111" class="contact__phone">+48 111 111 111</a>
+        </li>
+      </ul>
+    </div>
+    </header>
+
+    <main>
+      <div class="line"></div>
+      <div>
+        <ul class="portfolio__nav">
+          <li>
+            <button type="button" class="portfolio__button">Wszystkie</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio__button">Strony</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio__button">Aplikacje</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio__button">Dizajn</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio__button">Marketing</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <ul class="grid">
+          <li class="grid__item">
+            <div class="grid__box">
+              <img
+                  src="./images/images-portfolio/img1.jpg"
+                  alt="Komputer"
+                  width="370"
+                  height="294"
+                />
+              <div class="grid__overlay">
+                <p>Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
+              </div>
+            </div>
+            <h3>Technocrack</h3>
+            <p>Strona internetowa</p>
+          </li>
+          <li class="grid__item">
+            <div class="grid__box">
+              <img
+                  src="./images/images-portfolio/img2.jpg"
+                  alt="gra w koszykówke"
+                  width="370"
+                  height="294"
+                />
+              <div class="grid__overlay">
+                <p>text</p>
+              </div>
+            </div>
+            <h3>Grafika New Orlean vs Golden Star</h3>
+            <p>Dizajn</p>
+          </li>
+          <li class="grid__item">
+            <div class="grid__box">
+              <img
+                  src="./images/images-portfolio/img3.jpg"
+                  alt="logo seafood"
+                  width="370"
+                  height="294"
+                />
+              <div class="grid__overlay">
+                <p>text</p>
+              </div>
+            </div>
+            <h3>Restauracja Seafood</h3>
+            <p>Aplikacja</p>
+          </li>
+          <li class="grid__item">
+            <div class="grid__box">
+              <img
+                  src="./images/images-portfolio/img4.jpg"
+                  alt="słuchawki"
+                  width="370"
+                  height="294"
+                />
+              <div class="grid__overlay">
+                <p>text</p>
+              </div>
+            </div>
+            <h3>Projekt Prime</h3>
+            <p>Marketing</p>
+          </li>
+          <li class="grid__item">
+            <div class="grid__box">
+              <img
+                  src="./images/images-portfolio/img5.jpg"
+                  alt="paczki"
+                  width="370"
+                  height="294"
+                />
+              <div class="grid__overlay">
+                <p>text</p>
+              </div>
+            </div>
+            <h3>Projekt Boxes</h3>
+            <p>Aplikacja</p>
+          </li>
+          <li class="grid__item">
+            <div class="grid__box">
+              <img
+                  src="./images/images-portfolio/img6.jpg"
+                  alt="monitor"
+                  width="370"
+                  height="294"
+                />
+              <div class="grid__overlay">
+                <p>text</p>
+              </div>
+            </div>
+            <h3>Inspiration has no Borders</h3>
+            <p>Strona internetowa</p>
+          </li>
+          <li class="grid__item">
+            <div class="grid__box">
+              <img
+                  src="./images/images-portfolio/img7.jpg"
+                  alt="gazeta"
+                  width="370"
+                  height="294"
+                />
+              <div class="grid__overlay">
+                <p>text</p>
+              </div>
+            </div>
+            <h3>Magazyn Limited Edition</h3>
+            <p>Dizajn</p>
+          </li>
+          <li class="grid__item">
+            <div class="grid__box">
+              <img
+                  src="./images/images-portfolio/img8.jpg"
+                  alt="metka"
+                  width="370"
+                  height="294"
+                />
+              <div class="grid__overlay">
+                <p>text</p>
+              </div>
+            </div>
+            <h3>Projekt LAB</h3>
+            <p>Marketing</p>
+          </li>
+          <li class="grid__item">
+            <div class="grid__box">
+              <img
+                  src="./images/images-portfolio/img9.jpg"
+                  alt="korzystanie z komputera"
+                  width="370"
+                  height="294"
+                />
+              <div class="grid__overlay">
+                <p>text</p>
+              </div>
+            </div>
+            <h3>Growing Business</h3>
+            <p>Aplikacja</p>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <section class="container-footer">
+      <div class="bottom1">
+        <a href="index.html" class="logo">
+          <span>Web</span>
+          <span class="logo__color2">Studio</span>
+        </a>
+        <address>
+          <ul>
+            <li>
+              <a
+                href="https://goo.gl/maps/RXUdSUhqYEkcBt6XA"
+                class="bottom1__address"
+                target="blank"
+                >m. Warszawa, Aleje Jerozolimskie 21</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@example.com" class="bottom1__link"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:48111111111" class="bottom1__link"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div class="bottom2">
+        <h4>dołącz do nas</h4>
+        <ul  class="socials">
+          <li class="socials__box">
+            <svg class="socials__icon">
+              <use href="./images/symbol-defs.svg#icon-instagram"
+              ></use>
+            </svg>
+          </li>
+          <li class="socials__box">
+            <svg class="socials__icon">
+              <use href="./images/symbol-defs.svg#icon-twitter"
+              ></use>
+            </svg>
+          </li>
+          <li class="socials__box">
+            <svg class="socials__icon">
+              <use href="./images/symbol-defs.svg#icon-facebook"
+              ></use>
+            </svg>
+          </li>
+          <li class="socials__box">
+            <svg class="socials__icon">
+              <use href="./images/symbol-defs.svg#icon-linkedin2"
+              ></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+      <div class="bottom3">
+        <h4>zapisz sie do newslettera</h4>
+        <form class="bottom3__form" name="signup-form" autocomplete="on" novalidate>
+          <label class="form__newsletter">
+            <span class="label-text"></span>
+            <div class="newsletter__box">
+              <input type="email" class="form__input-newsletter" name="email" placeholder="E-mail">
+            </div>
+          </label>
+          <button type="submit" class="bottom3__button">
+            Zapisz się
+            <svg class="bottom3__icon" width="24" height="24" >
+              <use href="./images/symbol-defs.svg#icon-send"
+              ></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </section>
+    </footer>
+
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+$main-color: #212121;
+$secondary-color: #757575;
+$background-color: #ffffff;
+$slider-color: #2F303A;
+$link-color: rgba(255, 255, 255, 0.6);
+$button-background-color: #F5F4FA; 
+$overlay-background-color: rgba(47, 48, 58, 0.8);
+$overlay-transform-color: rgba(33, 150, 243, 0.9);
+$footer-background-color: #2F303A;
+$label-text-color: #757575;
+
+Body {
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+    margin: 0;
+}
+
+a:hover {
+    color: $brand-color;
+}
+
+button:hover {
+    color: $background-color;
+    background-color: $brand-color;
+}  
+
+
+ h1 {
+    width: 696px;
+    height: 120px;
+    top: 280px;
+    left: 452px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $background-color;
+ }
+
+ h2 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 4.2;
+    text-transform: capitalize;
+    letter-spacing: 0.03em
+    }
+
+ h3 {
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: $main-color;
+ }
+
+ h4 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $main-color;
+}
+
+ ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 3;
+    letter-spacing: 0.03em;
+    color: $secondary-color;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 auto;
+}

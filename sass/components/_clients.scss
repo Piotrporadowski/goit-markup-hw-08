@@ -1,0 +1,16 @@
+.clients {
+    justify-content: center;
+    text-align: center;
+  }
+  .clients__box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .clients__icon { 
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .clients__icon:hover {
+    --color1: $brand-color;
+  }
