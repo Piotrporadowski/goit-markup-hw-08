@@ -18,23 +18,30 @@
     resize: none;
   }
   .form-modal__input {
+    @media screen and (min-width: 1200px) {
     width: 448px;
     height: 40px;
-    left: 576px;
-    top: 314px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-  }
+    }
+    @media screen and (max-width: 1200px) {
+      display: flex;
+      align-items: center;
+      width: 370px;
+      height: 40px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      border-radius: 4px;
+    }
+  } 
   .form-modal__icon {
     color: $main-color;
     margin-left: 15px;
   }
   .form-modal__text {
     margin-left: 5px;
-    width: 408px;
-    height: 38px;
-    left: 576px;
-    top: 314px;
+    width: 390px;
+    height: 35px;
+    
     border: 0;
     padding: 0;
   }  
@@ -55,12 +62,22 @@
     border-color: $brand-color;
   }
   .form-modal__comment-box {
+    @media screen and (min-width: 1200px) {
     width: 448px;
     height: 120px;
     left: 576px;
     top: 518px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    }
+    @media screen and (max-width: 1200px) {
+      display: flex;
+      align-items: center;
+      width: 370px;
+      height: 120px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      border-radius: 4px;
+    }
   }
   .form-modal__input-comment {
     margin: 5px;
