@@ -5,7 +5,7 @@
     height: 80px;
     left: 0px;
     top: 0px;
-    background: var(--background-color);
+    background: $background-color;
     
   }
   
@@ -25,13 +25,16 @@
     font-size: 26px;
     line-height: 3.1;
     letter-spacing: 0.03em;
-    color: var(--brand-color);
+    color: $brand-color;
   }
   .logo__color1 {
-      color: $primary-text-color
+      color: $brand-color;
   } 
   .logo__color2 {
     color: $background-color;
+  }
+  .logo__color3 {
+    color: $main-color;
   }
   
   
@@ -53,14 +56,38 @@
   /* CONTACT */
   
   .page-header__contact {
-    display: flex;
+    /* display: flex;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.02em;
-    color: var(--secondary-color)
+    color: $secondary-color
+    */
+    @media screen and (min-width: 768px) {
+      margin-bottom: 21px;
+      margin-top: 21px;
+      margin-right: 10px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 100px;
+      margin-right: 50px;
+  
+      
+    }
   }
+  
+  @media screen and (max-width: 767px) {
+    .page-header__contact {
+      display: none;
+    }
+  }
+
+
   .contact__link {
     margin-left: 5px;
     text-decoration: none;
@@ -68,8 +95,9 @@
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.02em;
-    color: var(--secondary-color)
+    color: $secondary-color
   }
+
   
   .contact__mail {
     margin-left: 5px;
@@ -78,7 +106,7 @@
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.02em;
-    color: var(--secondary-color)
+    color: $secondary-color
   }
   .contact__box-mail {
     display: flex;
@@ -99,24 +127,23 @@
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.02em;
-    color: var(--secondary-color)
+    color: $secondary-color;
   } 
   
   
   .contact__box-phone:hover .icon__phone {
-    --color4:var(--brand-color)
+    --color4: #2196f3;
   }
   .contact__box-mail:hover .icon__mail {
-    --color1:var(--brand-color)
+    --color1: #2196f3;
   }
   .contact__box-mail:hover .contact__mail {
-    color: var(--brand-color);
+    color: #2196f3;
   }
   .contact__box-phone:hover .contact__phone {
-    color: var(--brand-color);
+    color: #2196f3;
   }
 
 
 
 
-  

@@ -13,8 +13,14 @@
       margin-top: 25px;
       margin-bottom: 0;
     }
-
   }
+  @media screen and (max-width: 767px) {
+    .navbar {
+      display: none;
+    }
+  }
+  
+
   
   /*
   .navbar--underline::after {
@@ -58,7 +64,7 @@
     color: $main-color;
 
     &--transition {
-      color: $main-text-color;
+      color: $main-color;
       transition-property: color, transform;
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
