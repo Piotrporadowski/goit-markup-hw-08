@@ -1,7 +1,17 @@
 .bottom3 {
-    margin-top: 15px;
-    margin-left: 100px;
-    align-items: center;
+      margin-top: 15px;
+      margin-left: 100px;
+      align-items: center;
+    
+    @media screen and (max-width: 767px) {
+      margin: 0;
+      display: block;
+      vertical-align: middle;
+    }
+    @media screen and (max-width: 1200px) {
+      display: block;
+      margin: 0;
+    }
   }
   .bottom3 h4 {
     width: 207px;
@@ -17,11 +27,31 @@
     text-transform: uppercase;
     color: $background-color;
     margin: 25px 0px 15px 0px;
+
+    @media screen and (max-width: 767px) {
+      margin-left: 75.5px;
+    }
+    
+    @media screen and (max-width: 1200px) {
+      margin-left: 75.5px;
+    }
+
   }
   .bottom3__form {
-    display: flex;
-    justify-content: space-between;
-    max-height: 50px;
+    
+      display: flex;
+      justify-content: space-between;
+      max-height: 50px;
+    
+
+    @media screen and (max-width: 767px) {
+      margin: 0;
+      display: block;
+    }
+    @media screen and (max-width: 1200px) {
+      display: block;
+    }
+    
   }
   .form__newsletter {
     display: inline-block;
@@ -82,6 +112,23 @@
     font-size: 16px;
     line-height: 188% 
   }
+
+  @media screen and (max-width: 767px) {
+    .bottom3__button {
+      margin-top: 10px;
+      margin-left: 79px;
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .bottom3__button {
+      margin-top: 10px;
+      margin-left: 79px;
+      align-items: center;
+    }
+  }
   .bottom3__icon {
     margin-left: 10px;
   }
+
+ 

@@ -1,7 +1,7 @@
 .menu-box {
   display: flex;
 }
-  
+
   .menu-toggle {
     min-height: 40px;
     min-width: 40px;
@@ -24,19 +24,21 @@
   }
   
   .menu-toggle:hover {
-    color: $brand-color;
+    color: $background-color;
   }
   
   .js-open-menu:hover,
   .js-open-menu:focus {
     color: $brand-color;
     fill: $brand-color;
+    background-color: $background-color;
   }
   
   .js-close-menu:hover,
   .js-close-menu:focus {
     color: $brand-color;
     fill: $brand-color;
+    background-color: $background-color;
   }
   
   .menu-container {

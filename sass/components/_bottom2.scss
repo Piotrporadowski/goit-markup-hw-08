@@ -2,6 +2,18 @@
     margin-top: 15px;
     margin-left: 60px;
     align-items: center;
+
+    @media screen and (max-width: 767px) {
+      margin: 0 auto;
+      text-align: center;
+      justify-content: center;
+    }
+    @media screen and (max-width: 1200px) {
+      margin: 0;
+      text-align: center;
+      justify-content: center;
+    }
+
   }
   .bottom2 h4 {
     width: 113px;
@@ -17,4 +29,8 @@
     text-transform: uppercase;
     color: $background-color;
     margin: 25px 0px 15px 0px;
+
+    @media screen and (max-width: 767px) {
+      margin-left: 122.5px;
+    }
   }
