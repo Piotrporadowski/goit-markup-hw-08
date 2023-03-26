@@ -40,6 +40,29 @@ button:hover {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: $background-color;
+
+    @media screen and (min-width: 320px) {
+        font-size: 26px;
+        // max-width: 360px;
+        line-height: 1.62;
+        margin-top: 118px;
+      }
+    
+      @media screen and (min-width: 480px) {
+        font-size: 26px;
+        max-width: 400px;
+        line-height: 1.62;
+        margin-top: 118px;
+      }
+    
+      @media screen and (min-width: 1200px) {
+        font-size: 44px;
+        max-width: 696px;
+        line-height: 1.37;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+      }
  }
 
  h2 {
