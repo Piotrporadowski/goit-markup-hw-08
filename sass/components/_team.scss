@@ -10,18 +10,7 @@
     
   }
 
-  @media screen and (max-width: 1200px) {
-    .team {
-      display: block;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .team__person {
-      flex-basis: calc(100% / 2);
-      font-size: 32px;
-    }
-  }
+
   
   .team__person {
     display: flex;
@@ -61,4 +50,11 @@
     }
   }
 
-    
+  @media screen and (max-width: 1200px) {
+    .team__person {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+  }
