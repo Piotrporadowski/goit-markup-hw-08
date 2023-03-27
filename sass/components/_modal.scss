@@ -28,6 +28,11 @@
     border-radius: 4px;
 
   
+    @media screen and (min-width: 350px) {
+      width: 350px;
+      min-height: 609px;
+    }
+
     @media screen and (min-width: 480px) {
       width: 450px;
       min-height: 609px;
@@ -48,12 +53,12 @@
     letter-spacing: 0.03em;
     color: $main-color;
 
-    @media screen and (min-width: 320px) {
-      font-size: 16px;
+    @media screen and (max-width: 350px) {
+      font-size: 14px;
       line-height: 1.15;
     }
   
-    @media screen and (min-width: 320px) {
+    @media screen and (min-width: 350px) {
       font-size: 20px;
       line-height: 1.15;
     }

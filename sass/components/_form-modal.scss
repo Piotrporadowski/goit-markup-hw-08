@@ -32,6 +32,14 @@
       border: 1px solid rgba(33, 33, 33, 0.2);
       border-radius: 4px;
     }
+    @media screen and (max-width: 450px) {
+      display: flex;
+      align-items: center;
+      width: 270px;
+      height: 40px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      border-radius: 4px;
+    }
   } 
   .form-modal__icon {
     color: $main-color;
@@ -78,6 +86,14 @@
       border: 1px solid rgba(33, 33, 33, 0.2);
       border-radius: 4px;
     }
+    @media screen and (max-width: 450px) {
+      display: flex;
+      align-items: center;
+      width: 270px;
+      height: 120px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      border-radius: 4px;
+    }
   }
   .form-modal__input-comment {
     margin: 5px;
@@ -100,7 +116,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+
+    
+      
+    }
+  
   .rules-info {
     display: block;
     position: relative;
